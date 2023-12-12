@@ -6,8 +6,8 @@ link = "https://senaiweb6.fieb.org.br/FRAMEHTML/web/app/edu/PortalEducacional/lo
 driver.get(url=link)
 
 time.sleep(1)
-user = "021.816680"
-senha = "075meunego"
+user = ""
+senha = ""
 # Encontrar o campo de usuário e preenchê-lo
 campo_usuario = driver.find_element('xpath','/html/body/div[2]/div[3]/form/div[1]/input')
 campo_usuario.send_keys(user)
